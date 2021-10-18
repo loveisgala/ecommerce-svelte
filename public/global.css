@@ -3,17 +3,17 @@
 Fonts
 ======
 */
-@import url("https://fonts.googleapis.com/css?family=Catamaran:300,400|Kaushan+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Quicksand:wght@300&display=swap');
 /* 
 ====== 
 Variables 
 ======
 */
 :root {
-  --primaryColor: #9e3aa3;
-  --primaryDarkColor: #4e1d51;
-  --primaryFont: "Catamaran", sans-serif;
-  --slantedFont: "Kaushan Script", cursive;
+  --primaryColor: #719482;
+  --primaryDarkColor: #3e4938;
+  --primaryFont: "Lato", sans-serif;
+  --slantedFont: "Quicksand", cursive;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBackground: rgb(250, 245, 243);
