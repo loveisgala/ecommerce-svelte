@@ -235,7 +235,7 @@ Hero
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primaryDarkColor);
+  color: var(--mainWhite);
 }
 .banner {
   margin-top: 5rem;
