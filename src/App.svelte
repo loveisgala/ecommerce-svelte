@@ -10,11 +10,13 @@
 </script>
 
 <Router>
-	<nav>
-		<Link to="/">Home</Link>
-		<Link to="/about">About</Link>
-		<Link to="/products">Products</Link>
-	</nav>
+	<div class="navbar">
+		<nav class="nav-links">
+			<Link to="/">Home</Link>
+			<Link to="/about">About</Link>
+			<Link to="/products">Products</Link>
+		</nav>
+	</div>
 	<Route path="/" component={Home} />
 	<Route path="/about" component={About} />
 	<Route path="/products" component={Products} />
