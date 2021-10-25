@@ -6,17 +6,12 @@
 	import Products from './pages/Products.svelte';
 	import Home from './pages/Home.svelte';
 	import About from './pages/About.svelte';
+	import Navbar from './components/Navbar/Navbar.svelte';
 
 </script>
 
 <Router>
-	<div class="navbar">
-		<nav class="nav-links">
-			<Link to="/">Home</Link>
-			<Link to="/about">About</Link>
-			<Link to="/products">Products</Link>
-		</nav>
-	</div>
+	<Navbar/>
 	<Route path="/" component={Home} />
 	<Route path="/about" component={About} />
 	<Route path="/products" component={Products} />
