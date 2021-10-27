@@ -1,5 +1,6 @@
 <script>
   import { link } from 'svelte-routing';
+  import CartButton from '../Cart/CartButton.svelte';
 </script>
 
 <nav class="navbar">
@@ -10,6 +11,6 @@
     <a href="/" use:link class="nav-logo">
       <img src="/assets/images/logo.svg" class="logo" alt="logo">
     </a>
-    <button>cart</button>
+    <CartButton/>
   </div>
 </nav>
